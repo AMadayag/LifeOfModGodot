@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://4q4dhrca6o2b"]
+
+[ext_resource type="Texture2D" uid="uid://ds7agsgwehxpn" path="res://assets/notes/notes-app-background.png" id="1_xkw4e"]
+
+[node name="Notes" type="Node2D" unique_id=1518641842]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=392718550]
+position = Vector2(932, -179)
+texture = ExtResource("1_xkw4e")

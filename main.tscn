@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dqhjk0kxh3uiv"]
+
+[ext_resource type="Script" uid="uid://q2wrfgpk1wi3" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://brks7swf5d8yg" path="res://taskbar/taskbarscn.tscn" id="1_ig7tw"]
+
+[node name="main" type="Node2D" unique_id=1048013299]
+script = ExtResource("1_h2yge")
+
+[node name="taskbarscn" parent="." unique_id=1419867933 instance=ExtResource("1_ig7tw")]
+position = Vector2(575.99994, 323)
